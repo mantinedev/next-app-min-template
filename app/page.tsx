@@ -1,3 +1,5 @@
+import DisplayDetails from "./components/DisplayDetails";
+
 export default function HomePage() {
-  return <div>Home page</div>;
+  return <div><DisplayDetails/></div>;
 }
