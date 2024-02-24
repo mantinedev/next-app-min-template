@@ -3,6 +3,7 @@ import React, { useEffect, useState } from 'react';
 import axios from 'axios';
 import { Card, Group, Text, Button, Grid, Avatar } from '@mantine/core'; 
 
+//this is main componant
 export default function HomePage() {
   const [users, setUsers] = useState([]);
   const [followedUsers, setFollowedUsers] = useState<any>([]);
