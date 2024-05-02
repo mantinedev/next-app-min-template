@@ -1,7 +1,8 @@
 import "@mantine/core/styles.css";
-import React from "react";
 import { MantineProvider, ColorSchemeScript } from "@mantine/core";
 import { theme } from "../theme";
+import { RootStyleRegistry } from "./EmotionRootStyleRegistry";
+import { MantineEmotionProvider, emotionTransform } from "@mantine/emotion";
 
 export const metadata = {
   title: "Mantine Next.js template",
@@ -20,7 +21,13 @@ export default function RootLayout({ children }: { children: any }) {
         />
       </head>
       <body>
-        <MantineProvider theme={theme}>{children}</MantineProvider>
+        <RootStyleRegistry>
+          <MantineEmotionProvider>
+            <MantineProvider theme={theme} stylesTransform={emotionTransform}>
+              {children}
+            </MantineProvider>
+          </MantineEmotionProvider>
+        </RootStyleRegistry>
       </body>
     </html>
   );
