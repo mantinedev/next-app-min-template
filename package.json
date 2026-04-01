@@ -6,21 +6,20 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "oxlint ."
   },
   "dependencies": {
     "@mantine/core": "9.0.0",
     "@mantine/hooks": "9.0.0",
     "next": "15.5.3",
-    "react": "19.1.1",
-    "react-dom": "19.1.1"
+    "react": "19.2.4",
+    "react-dom": "19.2.4"
   },
   "devDependencies": {
     "@types/node": "24.3.3",
-    "@types/react": "19.1.13",
-    "@types/react-dom": "19.1.9",
-    "eslint": "9.35.0",
-    "eslint-config-next": "15.5.3",
+    "@types/react": "19.2.14",
+    "@types/react-dom": "^19.2.1",
+    "oxlint": "^1.58.0",
     "postcss": "^8.5.6",
     "postcss-preset-mantine": "1.18.0",
     "postcss-simple-vars": "^7.0.1",
