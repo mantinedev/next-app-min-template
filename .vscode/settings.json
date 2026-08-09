@@ -1,0 +1,5 @@
+{
+  "oxc.lint.enable": true,
+  "oxc.configPath": "oxlint.config.mjs",
+  "eslint.enable": false
+}
