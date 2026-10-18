@@ -311,9 +311,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@mantine/core@npm:9.7.2":
-  version: 9.7.2
-  resolution: "@mantine/core@npm:9.7.2"
+"@mantine/core@npm:9.7.3":
+  version: 9.7.3
+  resolution: "@mantine/core@npm:9.7.3"
   dependencies:
     "@floating-ui/react": "npm:^0.27.20"
     clsx: "npm:^2.1.1"
@@ -321,19 +321,19 @@ __metadata:
     react-remove-scroll: "npm:^2.7.2"
     type-fest: "npm:^5.10.0"
   peerDependencies:
-    "@mantine/hooks": 9.7.2
+    "@mantine/hooks": 9.7.3
     react: ^19.2.0
     react-dom: ^19.2.0
-  checksum: 10c0/0b3102601a4faec18ceff62fdbbb9729ef53590efe29a3820dc6c291d1821800b44add4dbe900ae6c5964ad3e4c2995ffd13547618ed17ce1927a4633719d637
+  checksum: 10c0/9d65c4f8de7ae35fc0dc8c461b6b4765a2ae836c2708644c94269612626373ccc18b619b42249f5ddd1b7aaca88099d6f64ee3c4674fbddd1ee27ca30ada8e1b
   languageName: node
   linkType: hard
 
-"@mantine/hooks@npm:9.7.2":
-  version: 9.7.2
-  resolution: "@mantine/hooks@npm:9.7.2"
+"@mantine/hooks@npm:9.7.3":
+  version: 9.7.3
+  resolution: "@mantine/hooks@npm:9.7.3"
   peerDependencies:
     react: ^19.2.0
-  checksum: 10c0/3c6e579398d15533260983a92d7cc13009811c9acd99a641b81af9a7def3e5f073311915be317a37b3de19ba04fff5377116ffb10ab0745391642abef7a2c174
+  checksum: 10c0/ca28e942e8f6c189e8b82aeb829deedda19895e4a8b6eca01fc1985b63af8fbe2b1a93da14e2ffc6bc8a426ee1dd5046317ce83a142218df6846cbd7c8e1efe8
   languageName: node
   linkType: hard
 
@@ -799,8 +799,8 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "mantine-minimal-next-template@workspace:."
   dependencies:
-    "@mantine/core": "npm:9.7.2"
-    "@mantine/hooks": "npm:9.7.2"
+    "@mantine/core": "npm:9.7.3"
+    "@mantine/hooks": "npm:9.7.3"
     "@types/node": "npm:24.3.3"
     "@types/react": "npm:19.2.14"
     "@types/react-dom": "npm:^19.2.1"
